@@ -38,10 +38,10 @@ public class Email extends Contact {
         return test.matches(EMAIL_VALIDATION_REGEX);
     }
 
-    @Override
-    public String toString() {
-        return value;
-    }
+//    @Override
+//    public String toString() {
+//        return value;
+//    }
 
     @Override
     public boolean equals(Object other) {
@@ -50,13 +50,13 @@ public class Email extends Contact {
                 && this.value.equals(((Email) other).value)); // state check
     }
 
-    @Override
-    public int hashCode() {
-        return value.hashCode();
-    }
-
-
-    public boolean isPrivate() {
-        return isPrivate;
-    }
+//    @Override
+//    public int hashCode() {
+//        return value.hashCode();
+//    }
+//
+//
+//    public boolean isPrivate() {
+//        return isPrivate;
+//    }
 }
